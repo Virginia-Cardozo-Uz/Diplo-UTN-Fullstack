@@ -1,4 +1,0 @@
-bananas
-buscador
-footer
-acentos
