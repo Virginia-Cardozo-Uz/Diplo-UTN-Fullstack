@@ -50,11 +50,11 @@ h4 {
     column-count: 3;
     column-gap: 200;
     border-radius: 700px;
-    box-shadow: 0 0 5px #060000;
+    box-shadow: 10px 12px 8px #060000;
 }
 
 #actividad{
-    box-shadow: 0 0 5px #060000;
+    box-shadow: 5px 3px 5px #060000;
 }
 
 #intereses{
