@@ -16,3 +16,20 @@ if (metros <= 1000) {
 } else {
     console.log(`El transporte recomendado es avión`);
 }
+
+
+// Tarea corregida:
+
+// const metros = 25000;
+// let transporte = '';
+
+// if (metros > 0 && metros <= 1000) {
+//     transporte = 'pie';
+//     
+// } else if (metros > 1000 && metros <= 3000) {
+//      transporte = 'colectivo;}
+//  else if (metros > 3000 && metros <= 10000) {
+//      transporte = 'auto;}
+//  else if (metros > 100000) {
+//      transporte = 'avión;}
+// console.log('Para ${metros} metros te recomiendo ustilizar este medio: ${transporte}')

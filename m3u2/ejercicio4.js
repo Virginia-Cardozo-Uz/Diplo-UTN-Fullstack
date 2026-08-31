@@ -18,3 +18,17 @@ if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5 && num1 > num6) {
 } else {
     console.log(`El mayor es el ${num6}`);
 }
+
+// Ejercicio corregido:
+
+// const numeros = [100, 2, 345, 567, 34, 25];
+// let mayor= 0;
+
+// for (let i = 0; i< numeros.length i++){
+    
+//     if(numero[i] > mayor) {
+//         mayor= numeros [i]
+//     }
+// }
+
+// console.log('El mayor de estos números ${numeros} es ${mayor}')
