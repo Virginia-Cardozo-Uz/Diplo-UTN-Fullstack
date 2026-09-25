@@ -1,0 +1,135 @@
+// import Image from "next/image";
+// import styles from "./page.module.css";
+import "@/styles/home.css";
+export default function Home() {
+  return (
+    <div className="contenido-hero">
+     <section className="hero">
+        
+        <h2>Diseño y desarrollo web <span>Freelancer</span></h2>
+    
+        <div className="ubicacion">
+        <p> 
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="48"
+        height="48"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#ffc107"
+        stroke-width="1.75"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg>
+        <br />
+        Buenos Aires, Argentina</p>
+        </div> 
+        <a className="botonhero" href="/contacto">Contactar</a> 
+      </section> 
+    
+        
+       <main className="contenedor sombra">
+      <h2>Mis servicios</h2>
+      <div className="servicios">
+      <section className="servicio">
+      <h3>Diseño Web</h3>
+        <div className="iconos">
+    
+       <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#000000"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+        <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+        <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+        <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+      </svg>
+      </div>
+        
+        <p>Diseño sitios web modernos, funcionales y adaptados a las necesidades de cada proyecto. Me enfoco en crear interfaces atractivas, intuitivas y responsivas, cuidando tanto la estética como la experiencia del usuario. Transformo ideas en espacios digitales que representan la identidad de cada marca y conectan con su público.
+        </p>
+      </section>
+    
+      <section className="servicio">
+        <h3>Aplicaciones móbiles</h3>
+    
+        <div className="iconos">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="44"
+        height="44"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#000000"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M4 10l0 6" />
+        <path d="M20 10l0 6" />
+        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+        <path d="M8 3l1 2" />
+        <path d="M16 3l-1 2" />
+        <path d="M9 18l0 3" />
+        <path d="M15 18l0 3" />
+      </svg>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="44"
+        height="44"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#000000"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M4 11.319c0 3.102 .444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08 .988c.426 -.268 .97 -.268 1.397 0c1.923 1.26 3.728 .809 5.079 -.988c1.778 -2.66 2.222 -4.876 2.222 -7.977c0 -2.661 -1.99 -5.32 -4.444 -5.32c-1.267 0 -2.41 .693 -3.22 1.44a.5 .5 0 0 1 -.672 0c-.809 -.746 -1.953 -1.44 -3.22 -1.44c-2.454 0 -4.444 2.66 -4.444 5.319" />
+        <path d="M7 12c0 -1.47 .454 -2.34 1.5 -3" />
+        <path d="M12 7c0 -1.2 .867 -4 3 -4" />
+      </svg>
+      </div>
+        
+      <p>Desarrollo aplicaciones móviles funcionales, intuitivas y pensadas para brindar una experiencia simple y agradable. Busco transformar ideas en soluciones digitales prácticas, adaptadas a las necesidades de cada proyecto. Combino creatividad y tecnología para crear aplicaciones que aporten valor y faciliten la interacción con los usuarios.
+        </p>
+      </section>
+    
+      <section className="servicio">
+        <h3>E-Commerce</h3>
+
+        <div className="iconos">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="44"
+        height="44"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#000000"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M3 5m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" />
+        <path d="M3 10l18 0" />
+        <path d="M7 15l.01 0" />
+        <path d="M11 15l2 0" />
+       </svg>
+       </div>
+        
+        <p>Creo tiendas online atractivas, funcionales y pensadas para facilitar la experiencia de compra. Diseño espacios digitales donde cada producto pueda destacarse y el usuario pueda navegar de forma simple y segura. Combino diseño, estrategia y tecnología para ayudar a cada negocio a crecer y conectar con sus clientes.
+        </p>
+      </section>
+      </div> 
+
+        
+      </main>
+      
+    </div>
+  );
+}
