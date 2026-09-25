@@ -32,7 +32,7 @@ export default function Contacto() {
 
         <div className="campo">
         <label>Mensaje</label>
-        <textarea className="input-text"> </textarea>
+        <textarea className="input-text"></textarea>
         </div>
         
     </div>         
